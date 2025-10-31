@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project(ui-shell)
+find_package(Qt5 COMPONENTS Core Gui Qml Quick REQUIRED)
+add_executable(ui-shell src/main.cpp)
+target_link_libraries(ui-shell Qt5::Core Qt5::Gui Qt5::Qml Qt5::Quick)

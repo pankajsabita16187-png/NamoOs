@@ -1,0 +1,7 @@
+# Buildroot defconfig (minimal stub)
+BR2_arm=y
+BR2_TOOLCHAIN_BUILDROOT=y
+BR2_ROOTFS_OVERLAY="overlay/"
+BR2_PACKAGE_BUSYBOX=y
+BR2_PACKAGE_CLAMAV=y
+BR2_PACKAGE_QT5BASE=y

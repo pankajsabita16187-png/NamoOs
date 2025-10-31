@@ -1,0 +1,11 @@
+[Unit]
+Description=Start NamoOs UI Shell
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ui-shell
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target

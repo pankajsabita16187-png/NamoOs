@@ -1,0 +1,9 @@
+[Unit]
+Description=Start NamoOs SMS Scanner Service
+
+[Service]
+ExecStart=/usr/bin/sms-scanner
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
